@@ -1,4 +1,4 @@
-package com.ifts.navigationdrawer
+package com.ifts.navigationdrawer.home
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -7,10 +7,11 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
+import com.ifts.navigationdrawer.R
 import com.ifts.navigationdrawer.databinding.ActivityHomeBinding
-import com.ifts.navigationdrawer.fragments.HomeFragment
-import com.ifts.navigationdrawer.fragments.ProfileFragment
-import com.ifts.navigationdrawer.fragments.SettingsFragment
+import com.ifts.navigationdrawer.ui.fragments.HomeFragment
+import com.ifts.navigationdrawer.ui.fragments.ProfileFragment
+import com.ifts.navigationdrawer.ui.fragments.SettingsFragment
 
 /**
  * HomeActivity es la actividad principal de la aplicación que contiene un Navigation Drawer
